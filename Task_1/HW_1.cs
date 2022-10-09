@@ -28,10 +28,5 @@ int num4_5 = EnterNumber % 100;
 int num4 = num4_5 / 10;
 int num5 = EnterNumber % 10;
 
-if (num1 == num5)
-{
-    if (num2 == num4)
-    Console.Write("Да");
-    else Console.Write("Нет");
-}
+if (num1 == num5 && num2 == num4) Console.Write("Да");
 else Console.Write("Нет");
